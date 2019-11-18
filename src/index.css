@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/GothamSSm-Light.otf);
+}
+
+@font-face {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 500;
+  src: url(./fonts/GothamSSm-Medium.otf);
+}
+
+@font-face {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonts/GothamSSm-Book.otf);
+}
+
+/* Base */
+* {
+  font-family: Gotham, sans-serif;
+}
+
+.happy-deving {
+  color: #424242;
+  font-size: 1rem;
+  text-align: center;
+  animation: animate 1.5s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

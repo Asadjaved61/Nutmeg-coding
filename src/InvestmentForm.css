@@ -1,0 +1,45 @@
+label {
+    display: block;
+    font-size: 12px;
+    font-family: "GothamSSm-Bold", sans-serif;
+    color: #666
+}
+
+.formElement {
+    display: inline-block;
+    width: 48%
+}
+
+.formGroup div:last-child {
+    padding-left: 20px
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    width:90%;
+    font-size: 14px;
+    color: #666
+}
+
+span:before {
+    content: '£ ';
+}
+
+.primary-button {
+    background-color:  #2FB153;
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-top: 15px;
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    border: none
+}
+
+.info {
+    margin-top: 20px;
+    width: 95%;
+    color: #666
+}
